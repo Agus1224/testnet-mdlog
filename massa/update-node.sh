@@ -1,16 +1,22 @@
-#!/bin/bash
 
-echo "================================================================================"
-echo -e "\033[0;35m"
-echo " :::       :::   :::::::::       :::           :::::::::      ::::::::::    ";
-echo " ::: +   + :::   :::     ::::    :::          ::::    :::    :::       ::   ";
-echo " :+: ++ ++ :+:   :+:     :+::+   ::+          +::      ::+   :+:            ";
-echo " +:+  +:+  +:+   ++:      ++:+   +:+         :++       ++:   :+:+#######  ";
-echo " +#+       +#+   +++      #+++   #++         +#+       +#+   +#+      ###   ";
-echo " ###       ###   ###    #####    #########    ###     ###    ###      ###   ";
-echo " ###       ###   ### ######      #########      #######       ##########   ";
-echo -e "\e[0m"
-echo "================================================================================="
+#!/bin/bash
+merah="\e[31m"
+kuning="\e[33m"
+hijau="\e[32m"
+biru="\e[34m"
+UL="\e[4m"
+bold="\e[1m"
+italic="\e[3m"
+reset="\e[m"
+echo -e "$bold$italic$biru"
+ echo " █████╗ ██╗     ███████╗ ██████╗ ███╗   ██╗ ██████╗ ██╗   ██╗ █████╗  "
+echo " ██╔══██╗██║     ██╔════╝██╔═══██╗████╗  ██║██╔═══██╗██║   ██║██╔══██╗ "
+echo " ███████║██║     █████╗  ██║   ██║██╔██╗ ██║██║   ██║██║   ██║███████║ "
+echo " ██╔══██║██║     ██╔══╝  ██║   ██║██║╚██╗██║██║   ██║╚██╗ ██╔╝██╔══██║ "
+echo " ██║  ██║███████╗██║     ╚██████╔╝██║ ╚████║╚██████╔╝ ╚████╔╝ ██║  ██║ "
+echo " ╚═╝  ╚═╝╚══════╝╚═╝      ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝   ╚═══╝  ╚═╝  ╚═╝ "
+echo -e "$reset$bold$merah====================>>($hijau https://github.com/Agus1224 $merah)<<===================$reset\n"
+
 PASSWORDKU=$PASSWORD
 sleep 1
 cd ~
@@ -65,4 +71,4 @@ systemctl restart massad
 sleep 60
 clear
 cd $HOME
-wget -O buyrolls.sh https://raw.githubusercontent.com/mdlog/testnet-mdlog/main/massa/buyrolls.sh && chmod +x buyrolls.sh && screen -xR -S buyrolls ./buyrolls.sh
+wget -O buyrolls.sh https://raw.githubusercontent.com/Agus1224/NODE_TESTNET/main/MASSA%20LABS/buyrolls.sh && chmod +x buyrolls.sh && screen -xR -S buyrolls ./buyrolls.sh
